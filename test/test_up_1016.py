@@ -124,7 +124,7 @@ index = 0
 test_loader = torch.utils.data.DataLoader(list(zip(test_a, test_ui, test_x, test_y, test_z,test_ux,test_uy,test_uz,test_p)), batch_size=1,
                                            shuffle=False, collate_fn=my_collate)
 with torch.no_grad():
-    for g, ui, x, y, z in test_loader:
+    for g, ui, x, y, z, ux, uy, uz, p in test_loader:
         test_l3_ux = 0.0
         test_l3_uy = 0.0
         test_l3_uz = 0.0
