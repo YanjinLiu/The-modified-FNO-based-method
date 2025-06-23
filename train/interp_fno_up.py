@@ -183,7 +183,7 @@ nvalid = 194
 ntest = 184
 
 batch_size = 1
-learning_rate = 0.01
+learning_rate = 0.001
 
 epochs = 500
 step_size = 50
